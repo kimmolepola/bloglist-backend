@@ -1,0 +1,10 @@
+post http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InBlbGFhamEiLCJpZCI6IjVmOTE4NDdlY2VmYWViMTkwY2ZkZWU0ZCIsImlhdCI6MTYwMzM3MjIzNH0.GSV86Yc3VigjjtsgdfBaeNwcoQ6muu1gPuYI2AWGfb8
+
+{
+  "title": "Uus blogi",
+  "author": "Blogikirjoittelija",
+  "url": "http://www.tekstia.com/",
+  "likes": "819000"
+}
