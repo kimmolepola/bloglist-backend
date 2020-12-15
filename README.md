@@ -1,6 +1,6 @@
 # Bloglist app - backend
 
-Technologies: JavaScript, MongoDB <br />
+Technologies: MongoDB <br />
 Frontend on Azure: https://kimmolepola-bloglist-frontend.azurewebsites.net/ <br />
 Backend on Azure: https://kimmolepola-bloglist-backend.azurewebsites.net/api/blogs <br />
 Frontend on Heroku: https://kimmolepola-bloglist-frontend.herokuapp.com/ <br />
