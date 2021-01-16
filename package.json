@@ -1,5 +1,5 @@
 {
-  "name": "blog_list_expansion",
+  "name": "blog_list_backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,11 +8,15 @@
     "watch": "cross-env NODE_ENV=development nodemon index.js",
     "lint": "eslint .",
     "test": "cross-env NODE_ENV=test jest --verbose --runInBand",
-    "start:test": "cross-env NODE_ENV=test nodemon index.js"
+    "start:test": "cross-env NODE_ENV=test nodemon index.js",
+    "init-claudia": "claudia generate-serverless-express-proxy --express-module app",
+    "create-api": "claudia create --handler lambda.handler --deploy-proxy-api --region eu-north-1",
+    "update-api": "claudia update"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "claudia": "^5.12.0",
     "cross-env": "^6.0.0",
     "eslint": "^6.4.0",
     "eslint-config-airbnb": "^18.0.1",
@@ -26,6 +30,7 @@
     "supertest": "^4.0.2"
   },
   "dependencies": {
+    "aws-serverless-express": "^3.4.0",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",

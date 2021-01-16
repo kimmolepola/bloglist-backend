@@ -1,0 +1,10 @@
+{
+  "lambda": {
+    "role": "blog_list_backend-executor",
+    "name": "blog_list_backend",
+    "region": "eu-north-1"
+  },
+  "api": {
+    "id": "5tfiysgck8"
+  }
+}
